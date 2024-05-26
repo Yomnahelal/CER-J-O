@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -g
 LDFLAGS =
 SOURCES = main.c athlete.c file_operations.c statistics.c utils.c
 OBJECTS = $(SOURCES:.c=.o)
-EXEC = athlete_manager
+EXEC = cer-j-o
 
 all: $(EXEC)
 
